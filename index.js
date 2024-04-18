@@ -30,14 +30,14 @@ Cambia el contenido de los elementos con los ids 'lbltitulo' y 'btnsoporte',
 y cambia el valor del campo de entrada con el id 'rol_id' basado en su valor actual.
 */
 $(document).on("click", "#btnsoporte", function () {
-  if ($("#rol_id").val() == '1') {
+  if ($("#Id_rol").val() == '1') {
     $("#lbltitulo").html("Acceso Soporte");
     $("#btnsoporte").html("Acceso Usuario");
-    $("#rol_id").val(2);
+    $("#Id_rol").val(2);
   } else {
     $("#lbltitulo").html("Acceso Usuario");
     $("#btnsoporte").html("Acceso Soporte");
-    $("#rol_id").val(1);
+    $("#Id_rol").val(1);
   }
 });
 
