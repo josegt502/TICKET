@@ -31,10 +31,11 @@ if (isset($_POST["enviar"]) and $_POST["enviar"] == "si") {
     <div class="page-center">
         <div class="page-center-in">
             <div class="container-fluid">
-                
+
+
             <form class="sign-box" action="" method="post" id="login-form">
-            <input type="hidden" id="Id_rol" name="Id_rol" value="1">
-                    <div class="sign-avatar">
+            <input type="hidden" id="Id_rol" name="Id_rol" value="1">        
+            <div class="sign-avatar">
                         <img src="Public/img/avatar-sign.png" alt="">
                     </div>
                     <header class="sign-title" id="lbltitulo">Acceso Usuario</header>
